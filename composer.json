@@ -1,0 +1,25 @@
+{
+    "name": "vr80s/laravel-rbac",
+    "description": "Laravel Rbac - base url and http method",
+    "keywords": ["laravel", "Rbac", "Route", "Permission"],
+    "homepage": "http://github.com/vr80s/laravel-rbac",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vr80s",
+            "email": "tofenglu@gmail.com",
+            "homepage": "http://github.com/vr80s"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "laravel/framework": "5.1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5"
+    },
+    "autoload": {
+        "psr-4": {"Vr80s\\LaravelRbac\\": "src"},
+        "files": ["src/helpers.php"]
+    }
+}

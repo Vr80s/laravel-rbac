@@ -1,0 +1,239 @@
+body {
+    background: #e9e9e9;
+    padding-top: 40px;
+    color: #505050;
+}
+
+/*
+*   main css
+*/
+.main {
+    padding: 20px;
+}
+
+/*
+*   fa fonts css
+*/
+.fa-6x {
+    font-size: 6em;
+}
+.fa-8x {
+    font-size: 8em;
+}
+.fa-10x {
+    font-size: 10em;
+}
+.fa-15x {
+    font-size: 15em;
+}
+.fa-20x {
+    font-size: 20em;
+}
+.fa-shadow {
+    color: #505050;
+    text-shadow: 0 -1px 1px #fff, 0 1px 1px #505050;
+}
+.fa-shadow:hover {
+    color: #101010;
+    text-shadow: 0 -1px 1px #505050, 0 1px 1px #fff;
+}
+
+/*
+*   img-avatar fonts css
+*/
+.img-avatar {
+    display: inline-block !important;
+    width: 64px;
+    height: 64px;
+    border-radius: 3px;
+}
+
+.img-avatar.img-avatar16 {
+    width: 16px;
+    height: 16px
+}
+
+.img-avatar.img-avatar32 {
+    width: 32px;
+    height: 32px
+}
+
+.img-avatar.img-avatar48 {
+    width: 48px;
+    height: 48px
+}
+
+.img-avatar.img-avatar96 {
+    width: 96px;
+    height: 96px
+}
+
+.img-avatar.img-avatar128 {
+    width: 128px;
+    height: 128px
+}
+
+.img-avatar-thumb {
+    margin: 5px;
+    -webkit-box-shadow: 0 0 0 5px rgba(255,255,255,0.4);
+    box-shadow: 0 0 0 5px rgba(255,255,255,0.4)
+}
+
+.img-thumb {
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 2px
+}
+
+/*
+*   navbar css
+*/
+.navbar-default {
+    min-height: 0px;
+    background-color: #fff;
+    border-color: #eee;
+}
+.navbar-brand{
+    height: 40px;
+    padding-top: 10px;
+}
+.nav>li>a {
+    float: none;
+    padding: 12px 10px 9px;
+    line-height: 19px;
+    color: #444;
+    text-decoration: none;
+}
+
+/*
+ * navtabs css
+ */
+.nav-tabs {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd
+}
+
+.nav-tabs>li {
+    float: left;
+    margin-bottom: 0px
+}
+
+.nav-tabs>li>a {
+    padding: 10px;
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.nav-tabs>li>a:hover {
+    border-color: #eee #eee #ddd
+}
+
+.nav-tabs>li.active>a,.nav-tabs>li.active>a:focus,.nav-tabs>li.active>a:hover {
+    color: #fff;
+    cursor: default;
+    background-color: #505050;
+    border: 0px;
+    border-bottom-color: transparent;
+
+}
+
+/*
+ * Sidebar
+ */
+.sidebar {
+    position: fixed;
+    top: 41px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #fff;
+    border-right: 1px solid #eee;
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+    margin-right: -21px; /* 20px padding + 1px border */
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+.nav-sidebar > li > a {
+    color: #505050;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+    color: #fff;
+    background-color: #505050;
+}
+
+/*
+*  block css
+*/
+.block {
+    margin-bottom: 30px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px rgba(0,0,0,0.01);
+    box-shadow: 0 2px rgba(0,0,0,0.01);
+}
+
+.block-header {
+    background-color: #f9f9f9;
+    padding: 10px 15px;
+    -webkit-transition: opacity .2s ease-out;
+    transition: opacity .2s ease-out;
+}
+
+.block-title {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.block-content {
+    margin: 0 auto;
+    padding: 20px 20px 1px;
+    max-width: 100%;
+    overflow-x: visible;
+    -webkit-transition: opacity .2s ease-out;
+    transition: opacity .2s ease-out;
+}
+
+.block-content-title {
+    padding: 5px 0px;
+}
+
+/*
+*   alert css
+*/
+.alert {
+    /*padding: 15px;*/
+    /*margin-bottom: 20px;*/
+    border: 1px solid transparent;
+    border-radius: 0px;
+    box-shadow: 1px 1px 2px 0 rgba(50,50,50,.19);
+}
+
+/*
+*   pagination css
+*/
+.pagination>li>a,.pagination>li>span {
+    line-height: 1.5;
+    color:#505050;
+}
+
+.pagination>.active>a,.pagination>.active>a:focus,.pagination>.active>a:hover,.pagination>.active>span,.pagination>.active>span:focus,.pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #505050;
+    border-color: #505050
+}
